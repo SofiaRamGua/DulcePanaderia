@@ -1,1 +1,48 @@
 /* Place CSS styles here */
+body {
+    font-family: ;
+}
+.nav-header {
+    display: flex;
+    align-items:center
+    align-content: space-between;
+}
+.product-row-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+.nav-header-2 nav{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-decoration: none;
+    padding: 30px;
+}
+.nav-header-2 nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.product-row {
+    margin: 90px;
+
+}
+footer{
+    
+}
+footer img{
+    width: 50px;
+}
+.background-image {
+    min-width: 100px;
+    height: 600px;
+    background-image: url(../img/giz2.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+.background-image-text {
+    margin: 80px;
+    
+}
