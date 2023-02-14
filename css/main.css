@@ -12,16 +12,20 @@ body {
     justify-content: center;
     gap: 34px;
 }
+
+.nav-header-2 {
+    background-color: rgb(124, 89, 43);
+}
 .nav-header-2 nav{
     display: flex;
     gap: 80px;
     justify-content: center;
-    text-decoration: none;
     padding: 30px;
 }
 .nav-header-2 nav a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
 
 }
 .product-row {
