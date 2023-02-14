@@ -1,6 +1,9 @@
 /* Place CSS styles here */
 body {
-    font-family: ;
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .nav-header {
     display: flex;
@@ -14,7 +17,7 @@ body {
 }
 
 .nav-header-2 {
-    background-color: rgb(124, 89, 43);
+    background-color: #F5EAE0;
 }
 .nav-header-2 nav{
     display: flex;
@@ -24,9 +27,12 @@ body {
 }
 .nav-header-2 nav a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #230007;
+    font-weight: 700;
 
-
+}
+.nav-header-2 nav img {
+    width: 30px;
 }
 .product-row {
     margin: 90px;
@@ -41,12 +47,40 @@ footer img{
 .background-image {
     min-width: 100px;
     height: 600px;
-    background-image: url(../img/giz2.jpg);
+    background-image: url(/img/nahima-aparicio-erRwMuKF5qY-unsplash.jpg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
+
+/* Tagline text in the background image needs to be align in the center*/
+.background-image span {
+    color: #F5EAE0;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.order-now-button {
+    justify-content: center;
+    width: 100px;
+    background-color: #F5EAE0;
+    border-radius: 20px;
+
+}
+.order-now-button div{
+    color: #000000;
+
+}
 .background-image-text {
     margin: 80px;
+    
+}
+.menu-icon {
+    width: 20px;
+    height: 20px;
+    color: black;
+
+}
+.menu-icon div {
     
 }
