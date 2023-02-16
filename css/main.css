@@ -38,7 +38,8 @@ body {
     margin: 90px;
 
 }
-footer{
+.footer-color {
+    background-color: #F5EAE0;
     
 }
 footer img{
@@ -47,32 +48,54 @@ footer img{
 .background-image {
     min-width: 100px;
     height: 600px;
-    background-image: url(/img/nahima-aparicio-erRwMuKF5qY-unsplash.jpg);
-    background-repeat: none;
+    background-image:url(/img/nahima-aparicio-erRwMuKF5qY-unsplash.jpg);
+    background: linear-gradient(7, 0, 0) ;
+    background-repeat:none;
     background-size: cover;
     background-position: center center;
 }
+section div{
+    display: flex;
+    gap: 40px;
+    border: 50px;
+}
+
+h2 {
+    display: block;
+}
+ p {
+    display: block;
+
+}
+
+
+section img{
+    width: 30%;
+}
+
 
 /* Tagline text in the background image needs to be align in the center*/
-.background-image span {
+.background-image h1 {
     color: #F5EAE0;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    margin-top: 200px;
 }
 
 .order-now-button {
-    justify-content: center;
     width: 100px;
     background-color: #F5EAE0;
     border-radius: 20px;
-
+    text-align: center;
 }
-.order-now-button div{
-    color: #000000;
-
+.order-now{
+    align-self: center;
+    
 }
-.background-image-text {
-    margin: 80px;
+.background-image-content{
+    padding: 40px;
     
 }
 .menu-icon {
