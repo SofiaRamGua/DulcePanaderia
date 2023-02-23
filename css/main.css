@@ -16,14 +16,19 @@ body {
     gap: 34px;
 }
 
+.order-now-nav  {
+    
+       
+}
+
 .nav-header-2 {
     background-color: #F5EAE0;
 }
 .nav-header-2 nav{
     display: flex;
     gap: 80px;
-    justify-content: center;
     padding: 30px;
+    justify-content: space-between;
 }
 .nav-header-2 nav a {
     text-decoration: none;
@@ -89,7 +94,9 @@ section img{
     background-color: #F5EAE0;
     border-radius: 20px;
     text-align: center;
+    
 }
+
 .order-now{
     align-self: center;
     
