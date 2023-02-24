@@ -15,9 +15,6 @@ body {
     gap: 34px;
 }
 
-.order-now {
-    align-content: center;
-}
 
 .nav-header-2 {
     background-color: #F5EAE0;
@@ -44,8 +41,15 @@ body {
 
 }
 .footer-color {
-    background-color: #F5EAE0;
-    
+    background-color: #45210a;
+    gap: 80px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.footer-color div h3{
+    color: #F5EAE0;
+    font-weight: 400;
 }
 footer img{
     width: 50px;
@@ -62,10 +66,18 @@ footer img{
 }
 .section-contents {
     display: flex;
-    gap: 40px;
-    margin: 40px;
+    gap: 50px;
+    margin: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 
     
+}
+.section-contents h2 {
+    color:  #45210a;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 150px;
 }
 
 .section-contents img{
@@ -83,11 +95,12 @@ footer img{
 }
 .button {
     margin: 0 auto;
-    width: 100px;
-    padding: 6px;
+    width: 120px;
+    padding: 7px;
     background-color: #eac8a8;
     border-radius: 0px;
     text-align: center;
+    font-size: 20px;
     
 }
 
@@ -138,11 +151,13 @@ footer img{
 .landing {
     background-color: #F5EAE0;
 }
-.landing h2 {
+.landing h1 {
     font-weight: 400;
     font-size: 60px;
     padding-top: 200px;
+    padding-left: 50px;
     color: #45210a;
+    text-align: center;
 
     
 }
@@ -160,6 +175,74 @@ footer img{
     margin: 0 auto;
 
 }
-.logo {
-    color: #000000;
+
+.nav-header-2 nav .nav-select a {
+    color: #8e4116;
+    font-weight: 600;
+}
+.zip-code-bar {
+    
+    height: 50px;
+    width: 400px;
+    background-color: #F5EAE0;
+
+}
+.zip-code-button {
+    background-color: #45210a;
+    justify-content: center;
+    padding: 16px;
+}
+.zip-code-button span {
+    color: #F5EAE0;
+}
+.zip-code-bar div {
+    display: flex;
+    justify-content: space-between;
+}
+.zip-code-bar-text {
+    padding-top: 17px;
+    margin: 0 auto;
+    color: #eac8a8;;
+}
+
+.subscribe-bar {
+    
+    height: 50px;
+    width: 400px;
+    background-color: #57290c;
+
+}
+.subscribe-button {
+    background-color: #eac8a8;
+    justify-content: center;
+    padding: 16px;
+}
+.subscribe-button span {
+    color: #45210a;
+
+}
+.subscribe-bar div {
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-bar-text {
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 17px;
+    margin: 0 auto;
+    color: #eac8a8;
+}
+@menu.html body {
+    color: #000;
+}
+.menu-section {
+    background-color: #F5EAE0;
+}
+.menu-section-header {
+    margin: 0 auto;
+    color: #45210a;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px;
 }
