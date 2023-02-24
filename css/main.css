@@ -30,7 +30,7 @@ body {
     color: #45210a;
     font-weight: 400;
     padding-right: 70px;
-    font-size: 19px;
+    font-size: 18px;
 
 }
 .nav-header-2 nav img {
@@ -178,7 +178,7 @@ footer img{
 
 .nav-header-2 nav .nav-select a {
     color: #8e4116;
-    font-weight: 600;
+    font-weight: 500;
 }
 .zip-code-bar {
     
@@ -232,9 +232,7 @@ footer img{
     margin: 0 auto;
     color: #eac8a8;
 }
-@menu.html body {
-    color: #000;
-}
+
 .menu-section {
     background-color: #F5EAE0;
 }
