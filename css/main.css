@@ -18,23 +18,27 @@ body {
 
 .nav-header-2 {
     background-color: #F5EAE0;
+    
 }
 .nav-header-2 nav{
     display: flex;
     gap: 80px;
     align-items: center;
     justify-content: space-between;
+    padding-right: 20px;
 }
 .nav-header-2 nav a {
     text-decoration: none;
     color: #45210a;
-    font-weight: 400;
-    padding-right: 70px;
+    font-weight: 400;    
     font-size: 18px;
 
 }
 .nav-header-2 nav img {
     width: 300px;
+}
+.nav-header-2 nav a .shopping-cart {
+    width: 30px;
 }
 .product-row {
     margin: 90px;
@@ -319,4 +323,63 @@ footer img{
 }
 .contact-form span {
     font-size: 18px;
+}
+.concha-section-contents {
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+    color: #45210a;
+}
+.addtocart {
+    width: 120px;
+    margin-top: 30px;
+    padding: 7px;
+    background-color: #eac8a8;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #45210a;
+}
+.concha-section-contents span {
+    font-size: 20px;
+    font-weight: 400;
+}
+.concha-section-contents h1 {
+    font-weight: 500;
+}
+.quantity-button {
+    width: 120px;
+    background-color: #ead2bc;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    color: #45210a;
+    
+}
+.less {
+    width: 40px;
+    height: 30px;
+    background-color:  #eac8a8;
+    text-align: center;
+    padding-top: 7px;
+
+}
+.concha-section p {
+    font-weight: 300;
+    font-size: 17px;
+}
+.quantity-button span  {
+    padding-top: 10px;
+}
+.allergy {
+    font-weight: 300;
+    font-size: 17px;
+    font-style: italic;
+}
+.concha-buttons {
+   padding-top: 50px;
+
 }
