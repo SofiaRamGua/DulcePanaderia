@@ -362,10 +362,8 @@ textarea {
     color: #eac8a8;  
 }
 
-}
-
-
 .concha-section-contents {
+
     display: flex;
     gap: 50px;
     padding: 100px;
