@@ -44,16 +44,37 @@ body {
     margin: 90px;
 
 }
-.footer-color {
+footer{
+    height: 300px;
     background-color: #45210a;
+}
+.footer-color {
     gap: 80px;
     display: flex;
     padding-top: 30px;
     padding-left: 50px;
+    
 }
-.footer-color div h3{
+.footer-color div h3 {
+    color: #F5EAE0;
+}
+.footer-color div label{
     color: #F5EAE0;
     font-weight: 400;
+    
+}
+.footer-color div input{
+    height: 50px;
+    width: 400px;
+    background-color: #57290c;
+    color: #eac8a8;
+
+}
+button {
+    background-color: #eac8a8;
+    justify-content: center;
+    padding: 16px;
+    border: none;
 }
 footer img{
     width: 50px;
@@ -213,13 +234,6 @@ footer img{
     color: #eac8a8;;
 }
 
-.subscribe-bar {
-    
-    height: 50px;
-    width: 400px;
-    background-color: #57290c;
-
-}
 .subscribe-button {
     background-color: #eac8a8;
     justify-content: center;
@@ -232,6 +246,10 @@ footer img{
 .subscribe-bar div {
     display: flex;
     justify-content: space-between;
+}
+.subscribe-bar form {
+    display: flex;
+
 }
 .subscribe-bar-text {
     font-size: 15px;
@@ -291,34 +309,29 @@ footer img{
     background-color: #F5EAE0;
 }
 
+/* contact page */
 .contact-background {
     background-color: #F5EAE0;
 }
-input {
+input, textarea{
     background-color: #eac8a8;
     width: 300px;
     height: 40px;
     border: none;
+    display: block
 }
 .form-example {
     padding: 10px;
-    display: flex;
 }
 .contact-form-row {
     gap: 10px;
     padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 .contact-form {
   text-align: center;
   color: #45210a;
-
-  
-}
-.contact-bar-big {
-    background-color: #eac8a8;
-    width: 650px;
-    height: 300px;
-
 }
 
 .contact-form h1 {
@@ -327,6 +340,31 @@ input {
 .contact-form span {
     font-size: 18px;
 }
+textarea {
+    width: 630px;
+    height:300px;
+    
+}
+
+.send-button {
+    width: 100px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.send-button input:hover {
+    background-color:#8e4116;
+    color: #eac8a8;  
+}
+.subscribe-bar button:hover {
+    background-color:#8e4116;
+    color: #eac8a8;  
+}
+
+}
+
+
 .concha-section-contents {
     display: flex;
     gap: 50px;
